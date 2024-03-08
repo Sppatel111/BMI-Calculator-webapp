@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html>
-   <head>
-        <title> BMI Calculator</title>
-        <link rel="stylesheet" href="newcss.css">
-   </head>
-   <body>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="newcss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+</head>
+<body>
     <div class="header">
-        <h1> BMI Calculator </h1>
+        <h1>BMI Calculator</h1>
     </div>
+    
     <div class="container">
-       <div class="form-container">  
+        <div class="form-container">  
             <h2>Calculate Your BMI</h2>
-        <form action="BMICalculatorServlet" method="get" >
-	
-           <div class="form-group">
-             <label class="label" for="name">NAME:</label>
-             <input class="input-field" type="text" id="name" name="name" required>
-		  
-           </div>
-           <div class="form-group">
-             <label class="label" for="height">HEIGHT(in cm):</label>
-             <input class="input-field" type="text" id="height" name="height" required> 
-                  
-           </div>
-           <div class="form-group">
-             <label class="label"  for="weight">WEIGHT:</label>
-             <input class="input-field" type="text" id="weight" name="weight" required >
-                   
-           </div>
-           <div class="form-group">
-             <label class="label" for="age">AGE(in kg):</label>
-             <input class="input-field" type="number" id="age" name="age" min=2 max=100 required>
-                  
-           </div>
-             <input class="btn-calculate" type="submit" value="Submit">
-            
-        </form>
-       </div>
-         <div class="result-container" id="result">
-            <!-- Result will be displayed here -->
+            <form action="BMICalculatorServlet" method="get">
+                <div class="form-group">
+                    <label class="label" for="name">NAME:</label>
+                    <input class="input-field" type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label class="label" for="height">HEIGHT(in cm):</label>
+                    <input class="input-field" type="text" id="height" name="height" required> 
+                </div>
+                <div class="form-group">
+                    <label class="label" for="weight">WEIGHT:</label>
+                    <input class="input-field" type="text" id="weight" name="weight" required >
+                </div>
+                <div class="form-group">
+                    <label class="label" for="age">AGE(in kg):</label>
+                    <input class="input-field" type="number" id="age" name="age" min=2 max=100 required>
+                </div>
+                <input class="btn-calculate" type="submit" value="Submit">
+            </form>
         </div>
     </div>
-        <div class="footer">
+    
+    <div class="footer">
         &copy; 2023 BMI Calculator
-        </div>
-    </body>
+    </div>
+</body>
 </html>
