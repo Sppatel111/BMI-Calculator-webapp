@@ -21,8 +21,6 @@ public class BMICalculatorServlet extends HttpServlet
                 out.println("</head>");   
                 out.println("<body>");
                 
-        
-                
 		String name = request.getParameter("name");
                 float height = Float.parseFloat(request.getParameter("height"));
                 int age = Integer.parseInt(request.getParameter("age"));
