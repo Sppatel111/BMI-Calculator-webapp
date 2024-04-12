@@ -30,7 +30,7 @@ BMI Calculator is a web application that calculates the Body Mass Index (BMI) of
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/Sppatel111/BMI_Calculator.git
+   git clone https://github.com/Sppatel111/BMI-Calculator-webapp.git
 
 2. Open the project in Apache NetBeans IDE.
 3. Set up GlassFish Server and configure the project.
