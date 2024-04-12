@@ -1,6 +1,8 @@
 
 # BMI Calculator webapp
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 BMI Calculator is a web application that calculates the Body Mass Index (BMI) of a person and provides their weight category using Java Servlet. It allows users to input their height and weight, and based on this information, it calculates the BMI. Additionally, the application provides information about the weight category according to the World Health Organization (WHO) guidelines.
@@ -51,6 +53,4 @@ Contributions to this project are welcome! Here's how you can help:
 
 Please feel free to fork the repository, make your changes, and submit a pull request. Your contributions are appreciated!
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
